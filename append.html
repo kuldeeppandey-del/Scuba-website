@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+</head>
+<body>
+  <style>
+    *{
+      margin: 0 auto;
+      padding: 0 auto;
+      box-sizing: border-box;
+    }
+    .main{
+  display: inline-block;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.top{
+  width: 100%;
+   position: relative; 
+   overflow: hidden;
+}
+.sliders{
+  width: max-content;
+  transform: translateX(-100vw);
+}
+.slider{
+  width: 100vw;
+  height: 600px;
+  float:left;
+  position: relative;
+ 
+
+}
+.slide-img1{
+  width: 100%;
+  height: 100%;
+
+}
+.slide-img2{
+  width: 100%;
+  height: 100%;
+
+}
+.slider-content {
+  position: absolute;
+  top:45%;
+  left:5%;
+  z-index: 17;
+}
+.slider-content h1{
+  font-size: 4rem;
+  color:#fff;
+  font-weight: 500;
+}
+.slider-content p{
+  margin-top:20px;
+  font-size: 20px;
+  color:#fff;
+}
+.slider-content button{
+  margin-top:20px;
+  background-color: #F8EA49;
+  border-radius: 5px;
+  padding:20px 30px;
+  border:  none;
+}
+.slider-content2{
+  position: absolute;
+  top:45%;
+  left:5%;
+  z-index: 17;
+  animation-name: slider-pic;
+  animation-duration: 0.5s;
+  
+}
+
+@keyframes slider-pic{
+  0%{
+    transform: translateX(-500px);
+    
+  }
+  100%{
+    transform: translateX(0px);
+  }
+}
+
+.slider-content2 h1{
+  font-size: 4rem;
+  color:#fff;
+  font-weight: 500;
+}
+.slider-content2 p{
+  margin-top:20px;
+  font-size: 20px;
+  color:#fff;
+}
+.slider-content2 button{
+  margin-top:20px;
+  background-color: #F8EA49;
+  border-radius: 5px;
+  padding:20px 30px;
+  border:  none;
+}
+.banner{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color:white;
+  z-index: 15;
+  position: absolute;
+  top:2rem;
+  left:0;
+  
+  
+}
+
+
+.menu{
+  position:absolute;
+  text-align:center;
+  top: 7.2rem;
+  left: 22rem;
+  z-index: 16;
+  /* width: 100%; */
+
+}
+
+.menu .navbar ul li{
+  text-decoration: none;
+  display:inline-block;
+  margin: 10px;
+  font-size: large;
+font-weight: bolder;
+color:#fff;
+
+padding: 11px;
+
+}
+
+.hr-line{
+  width: 1020px;
+  position: absolute;
+  left:-28%;
+  opacity: 0.3;  
+}
+
+.slide-move{
+  animation-name: slide-move-anim;
+  animation-duration: 1s;
+}
+
+@keyframes slide-move-anim {
+  0% {
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-100vw);
+  }
+}
+
+.btn-right{
+
+  background-color:black;
+  padding: 10px;
+  color: white;
+}
+
+
+  </style>
+  <div class="main">
+    <header class="top">
+      <div class="sliders" id="sliders">
+        <div class="slider">
+          <img src="images/nature.jpg" class="slide-img2">
+          <div class="slider-content2" id="slider_content">
+            <h1>Best Equipments</h1>
+            <h1>And Instructors</h1>
+            <p>Our team and the top-notch equipment<br>
+              guarantee unforgettable diving.</p>
+               <button>READ MORE</button>
+          </div>
+        </div>
+      <div class="slider">
+        <img src="images/beautiful.jpg" class="slide-img1">
+      <div class="slider-content">
+        <h1>Enjoy Scuba </h1>
+        <h1>Diving With Us</h1>
+        <p>We offer a wide variety of scuba diving tours<br>
+           and locations for everyone</p>
+           <button>READ MORE</button>
+      </div>
+    </div>
+    
+       
+        <div class="slider">
+          <img src="images/nature.jpg" class="slide-img2">
+          <div class="slider-content2" id="slider_content">
+            <h1>Best Equipments</h1>
+            <h1>And Instructors</h1>
+            <p>Our team and the top-notch equipment<br>
+              guarantee unforgettable diving.</p>
+               <button>READ MORE</button>
+          </div>
+        </div>
+        <div class="slider">
+          <img src="images/beautiful.jpg" class="slide-img1">
+        <div class="slider-content">
+          <h1>Enjoy Scuba </h1>
+          <h1>Diving With Us</h1>
+          <p>We offer a wide variety of scuba diving tours<br>
+             and locations for everyone</p>
+             <button>READ MORE</button>
+        </div>
+      </div>
+      
+             
+        <div class="banner">
+          <div class="banner-contact">
+            <div>Call us: +1 (844) 123 456 78</div>
+            <div>info@demolink.org</div>
+          </div>
+          <div class="banner-name"><img src="scuba/logo-inverse-119x43.png" alt=""></div>
+          <div class="banner-searchbar"><i class="fa-solid fa-magnifying-glass"></i>en</div>
+        
+        
+        </div>
+        <div class="menu" id="nav">
+        <div class="navbar" >
+          <hr class="hr-line">
+          <ul >
+            <li>HOME</li>
+            <li>PAGES</li>
+            <li>BLOG</li>
+            <li>GALLERY</li>
+            <li>ELEMENTS</li>
+            <li>CONTACTS</li>
+          </ul>
+          <hr class="hr-line">
+        </div>
+        </div>
+       
+        
+            </header>
+          </div>
+          <span class="btn-right" onclick="sliders_img()"> > </span>
+<script>
+ sliders_img()
+ function sliders_img(){
+  sliders=document.getElementById("sliders")
+  slider=document.getElementsByClassName("sldier")
+  s=slider[0]
+  sliders.append(s)
+  sliders.classList.add("slide-move")
+  
+  setTimeout(function(){
+    sliders.classList.remove("slide-move")
+
+    
+  },900)
+
+   setTimeout(sliders_img,3000)
+
+ }
+
+ function adi(){
+  slider_content=document.getElementById("slider_content");
+  slider_content.classList.add("slider-content2");
+
+  setTimeout(function(){
+    slider_content.classList.remove("slider-content2")
+
+    
+  },900)
+  setTimeout(slider_content,3000)
+ }
+</script>
+</body>
+</html>
