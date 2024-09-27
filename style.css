@@ -1,15 +1,12 @@
 
-
 *{
   margin:0;
   padding: 0;
   box-sizing: border-box;
-   font-family: 'Poppins',sans-serif; 
+  font-family: 'Poppins',sans-serif; 
 }
 .main{
-  /* display: inline-block; */
   width: 100%;
-  
 }
 
 .top{
@@ -105,8 +102,6 @@
   position: absolute;
   top:2rem;
   left:0;
-  
-  
 }
 .banner-contact{
 font-weight: 600;
@@ -133,7 +128,6 @@ font-size: 20px;
   color: #F3E64E;
 }
  .en{
- 
   border-radius: 50%;
   padding: 3px 6px;
   color: black;
@@ -165,17 +159,12 @@ font-size: 20px;
   margin: 10px;
   font-size: large;
   font-weight: bolder;
-
   padding: 11px;
-
 }
 .navbar ul li span{
 color:#F3E64E;
 }
   
-  
-
-
 .card-section{
   display:inline-block;
   width: 100%;
@@ -217,29 +206,28 @@ color:#F3E64E;
     
 
 }
-.cards:hover .img{
-   
+.cards:hover .img{ 
     border: none
 }
 
 .cards h4{
   font-family: "Comfortaa", cursive;
   font-size: 18px;
-    line-height: 1.38462;
-    letter-spacing: .02em;
-    font-weight: normal;
-    margin:10px;
-    text-align: center;
+  line-height: 1.38462;
+  letter-spacing: .02em;
+  font-weight: normal;
+  margin:10px;
+  text-align: center;
 }
 .cards h4:hover{
   color: #0473db;
 }
 .cards h3 a{
   font-size: 14px;
-    line-height: 1.2;
-    font-weight: 600;
-    letter-spacing: .05em;
-    margin-left:130px;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: .05em;
+  margin-left:130px;
 }
 .cards:hover h3 a{
   border:2px solid #0473db;
@@ -255,10 +243,10 @@ color:#F3E64E;
 }
 .cards p{
   margin-left: auto;
-    margin-right: auto;
-    letter-spacing: .075em;
-    margin:20px;
-    text-align: center;
+  margin-right: auto;
+  letter-spacing: .075em;
+  margin:20px;
+  text-align: center;
 }
 
 .service-section-start{
@@ -363,8 +351,6 @@ color:#F3E64E;
   align-items: center;
   justify-content: center;
   gap: 20px;
-  
-  
 }
 .count-part >div{
   color:#fff;
@@ -481,19 +467,8 @@ color:#F3E64E;
 .hr_tag{
   width:100%;
 }
-.msg_bar{
-  position: fixed;
-  bottom:0%;
-  right:0%;
-  border-radius: 50%;
-  padding:10px;
-  z-index: 10;
-}
-.kd{
-  width:80px;
-  height: 80px;
-  border-radius: 50%;
-}
+
+
 .location_area{
   margin-top:90px;
   display: flex;
@@ -683,8 +658,7 @@ color:#F3E64E;
      height:100%;
      opacity:0.9;
      font-size: 20px;
-     font-family: "Comfortaa", cursive;
-    
+     font-family: "Comfortaa", cursive; 
    }
    
  
@@ -1119,7 +1093,6 @@ color:#F3E64E;
 
    }
    .postimg{
-   
      width: 100%;
      height: 230px;
    }
@@ -1160,9 +1133,7 @@ footer .footer_row {
   display: flex;
   align-items: center;
   padding-top: 5%;
-  
   justify-content: space-evenly;
-  
 }
 
 .con_3 {
